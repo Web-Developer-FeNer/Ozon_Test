@@ -1,0 +1,44 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Ozon Test</title>
+</head>
+
+<body>
+ <h1 class="title">Progress</h1>
+    <div id="root">
+        <div class="main-block">
+            <svg class="main-block__circle-svg circle-svg" width="200" height="200">
+                <circle class="circle-svg__background" r="90" cx="100" cy="100"></circle>
+                <circle class="circle-svg__fill" r="90" cx="100" cy="100"></circle>
+            </svg>
+        </div>
+
+        <div class="block-control">
+            <label class="block-control__label">
+                <input class="block-control__input" type="number" size="3" min="0" max="100" value="0">Value</label>
+
+            <label class="block-control__checkbox checkbox">
+                <input type="checkbox" class="checkbox__input checkbox__input_animated" />
+                <div class="checkbox__text">Animate</div>
+            </label>
+
+            <label class="block-control__checkbox checkbox">
+                <input type="checkbox" class="checkbox__input checkbox__input_hidden" />
+                <div class="checkbox__text">Hide</div>
+            </label>
+        </div>
+    </div>
+
+
+  <script src="js.js"></script>
+</body>
+
+</html>
